@@ -1,0 +1,46 @@
+{
+  "name": "port-forge",
+  "version": "1.0.0",
+  "description": "Unified cross-platform porting studio & MCP server for migrating PC apps, Windows games, and Xbox 360 static recompilation targets to Android (APK/NDK/SDL2/Winlator/Box64/DXVK).",
+  "main": "index.cjs",
+  "bin": {
+    "port-forge": "./bin/port-forge.cjs",
+    "port-forge-mcp": "./bin/mcp-server.cjs"
+  },
+  "scripts": {
+    "check": "node --check index.cjs && node --check bin/port-forge.cjs && node --check bin/mcp-server.cjs && node --check lib/inspector.cjs && node --check lib/winlator-oracle.cjs && node --check lib/scaffolder.cjs && node --check lib/log-doctor.cjs && node --check lib/store.cjs && node --check lib/web.cjs && node --check lib/installers.cjs && node --check tests/port-forge.test.cjs",
+    "test": "node --test tests/port-forge.test.cjs"
+  },
+  "keywords": [
+    "android-porting",
+    "ndk",
+    "sdl2",
+    "vulkan",
+    "winlator",
+    "box64",
+    "dxvk",
+    "xenonrecomp",
+    "mcp",
+    "model-context-protocol",
+    "cli",
+    "nodejs"
+  ],
+  "author": "Emerson Almeida <https://github.com/deusbr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deusbr/port-forge.git"
+  },
+  "homepage": "https://github.com/deusbr/port-forge#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.cjs",
+    "bin/",
+    "lib/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ]
+}
