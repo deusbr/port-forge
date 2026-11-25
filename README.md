@@ -1,5 +1,7 @@
 # Port-Forge
 
+[![port-forge MCP server](https://glama.ai/mcp/servers/@deusbr/port-forge/badges/score.svg)](https://glama.ai/mcp/servers/@deusbr/port-forge)
+
 **Unified Cross-Platform Porting Studio & MCP Server** for migrating PC software, Windows games, and Xbox 360 static recompilation targets to Android (`APK`, `NDK + SDL2 + Vulkan`, `Capacitor`, `Buildozer`, `XenonRecomp ARM64`, and tuned `Winlator / Box64 / FEX / DXVK` containers).
 
 Built with **zero external npm runtime dependencies** on Node.js `>=18` — ready for CLI workflows, AI coding agents (`Codex`, `Gemini CLI`, `Claude Code`, `Claude Desktop`, `OpenBot` via `stdio` MCP + portable `SKILL.md`), and a local browser workbench.
